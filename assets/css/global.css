@@ -1,0 +1,41 @@
+@media (max-width: 1023px) {
+	html {
+		font-size: 93.75%;
+	}
+}
+
+@media (max-width: 639px) {
+	html {
+		font-size: 87.5%;
+	}
+}
+
+body {
+	@apply bg-gray-50 text-gray-500;
+}
+
+body, button {
+	font: 500 1rem Inter, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	font-family: Lexend, sans-serif;
+	@apply text-gray-800;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+button {
+	cursor: pointer;
+}
+
+.font-lexend {
+	font-family: Lexend;
+}
